@@ -1,6 +1,9 @@
 // app/page.tsx
 import Layout from './layout';
 import 'tailwindcss/tailwind.css';
+import dynamic from 'next/dynamic'; 
+
+// const ExampleComponent = dynamic(() => import("./path/toComponent"));
 
 const HomePage = () => {
   return (

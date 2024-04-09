@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import { ReactNode } from 'react';
 import 'tailwindcss/tailwind.css';
+import dynamic from 'next/dynamic'; 
 
 interface LayoutProps {
   children: ReactNode;
