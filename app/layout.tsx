@@ -11,7 +11,7 @@ interface LayoutProps {
 const Layout = ({ children }: LayoutProps) => {
   return (
     <div className="min-h-screen flex flex-col bg-orange-50 dark:bg-gray-800 text-gray-800 dark:text-gray-200">
-      <nav className="flex justify-between items-center p-4 bg-orange-100 dark:bg-gray-900">
+      {/* <nav className="flex justify-between items-center p-4 bg-orange-100 dark:bg-gray-900">
         <Link href="https://yourproductwebsite.com" className="text-xl font-bold">
           产品Logo
         </Link>
@@ -21,7 +21,7 @@ const Layout = ({ children }: LayoutProps) => {
       </nav>
       <main className="flex-grow container mx-auto px-4 py-8">
         {children}
-      </main>
+      </main> */}
     </div>
   );
 };
